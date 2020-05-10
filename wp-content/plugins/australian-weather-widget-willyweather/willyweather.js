@@ -151,8 +151,8 @@ jQuery.fn.buildWidthTool = function(form,min,max,width) {
 			form.find('.ww-widget-width label strong').text(ui.value + 'px');
 	
 			jQuery.fn.checkTabCount(form,function(){
-				form.find('[name="widget[width]"]').val(300);
-				form.find('.ww-widget-width-slider').slider('value',300);
+				form.find('[name="widget[width]"]').val(500);
+				form.find('.ww-widget-width-slider').slider('value',500);
 			});
 			
 		}

@@ -121,7 +121,7 @@ class WW_Widget extends WP_Widget {
 		<input disabled type="hidden" name="widget[id]" value="<?php echo esc_attr($id); ?>">
 		<input disabled type="hidden" name="widget[code]" value="<?php echo esc_attr($code); ?>">
 		
-		<input type="hidden" name="widget[width]" value="300"><!--default-->
+		<input type="hidden" name="widget[width]" value="500"><!--default-->
 		<input type="hidden" name="widget[fontFamily]" value="sans-serif"><!--default-->
 		<input type="hidden" name="widget[widgetHeaderType]" value="1"><!--default-->
 		<input type="hidden" name="widget[height]" value="228"><!--default-->
@@ -135,7 +135,7 @@ class WW_Widget extends WP_Widget {
 			<select class="widefat" name="widget[widgetType]">
 				<option value="1" data-width="260" data-min="220" data-max="300" data-height="63">Thin Bar <em>220 - 300px &times; 26px</em></option><br>
 				<option value="4" data-width="199" data-min="188" data-max="210" data-height="62">High Bar <em>188 - 210px &times; 62px</em></option><br>
-				<option selected value="6" data-width="300" data-min="120" data-max="300" data-height="228">Sidebar <em>120 - 300px &times; 228px</em></option><br><!--default-->
+				<option selected value="6" data-width="500" data-min="120" data-max="500" data-height="228">Sidebar <em>120 - 500px &times; 228px</em></option><br><!--default-->
 				<option value="8" data-width="800" data-min="450" data-max="850" data-height="92">Leaderboard <em>450 - 850px &times; 92px</em></option><br>
 				<option value="9" data-width="500" data-min="400" data-max="1000" data-height="520">Full Page <em>400 - 1000px &times; 520px</em></option><br>
 			</select>
@@ -169,7 +169,7 @@ class WW_Widget extends WP_Widget {
 		</p>
 
 		<p class="ww-widget-width">
-			<label>Width: <strong>300px</strong></label>
+			<label>Width: <strong>500px</strong></label>
 			<div class="ww-widget-width-slider"></div>
 		</p>
 
