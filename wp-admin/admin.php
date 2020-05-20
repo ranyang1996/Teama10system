@@ -5,7 +5,9 @@
  * @package WordPress
  * @subpackage Administration
  */
-
+/**
+ * used to connect database
+ */
 /**
  * In WordPress Administration Screens
  *
